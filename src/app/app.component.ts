@@ -10,6 +10,10 @@ import { NgForComponent } from './directives/ng-for/ng-for.component';
 import { NgSwitchComponent } from './directives/ng-switch/ng-switch.component';
 import { NgClassComponent } from './directives/ng-class/ng-class.component';
 import { NgStyleComponent } from './directives/ng-style/ng-style.component';
+import { ParentDataComponent } from './Pdata/parent-data/parent-data.component';
+import { ChildDataComponent } from './Pdata/child-data/child-data.component';
+import { ParentDataCComponent } from './cdata/parent-data-c/parent-data-c.component';
+import { ChildDataCComponent } from './cdata/child-data-c/child-data-c.component';
 
 @Component({
   selector: 'app-root',
@@ -25,6 +29,10 @@ import { NgStyleComponent } from './directives/ng-style/ng-style.component';
     NgSwitchComponent,
     NgClassComponent,
     NgStyleComponent,
+    ParentDataComponent,
+    ChildDataComponent,
+    ParentDataCComponent,
+    ChildDataCComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
